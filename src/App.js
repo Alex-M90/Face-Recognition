@@ -8,7 +8,7 @@ import ParticlesBg from "particles-bg";
 import "./App.css";
 
 const returnClarifaiRequestOptions = (imageUrl) => {
-  const PAT = "778eecfaf320481aa12791afa863ef80";
+  const PAT = "";
   const USER_ID = "h7dc9okajqkx";
   const APP_ID = "Face-Recognition";
   const MODEL_ID = "face-detection";
