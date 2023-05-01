@@ -105,10 +105,11 @@ class App extends Component {
       `https://api.clarifai.com/v2/models/face-detection/versions/6dc7e46bc9124c5c8824be4822abe105/outputs`,
       returnClarifaiRequestOptions(this.state.input)
     )
+    .then(response => response.json())
       .then((response) => {
         if (response) {
           fetch("http://localhost:3000/image", {
-            method: "put",
+            method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               id: this.state.user.id,
@@ -120,8 +121,7 @@ class App extends Component {
             });
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
-        console.log(response)
-      })  
+      })
       .catch((err) => console.log(err));
   };
 
