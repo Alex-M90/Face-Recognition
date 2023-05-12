@@ -1,19 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Open-Sans", Arial, Helvetica, sans-serif,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Open-Sans", Arial, Helvetica,
+    sans-serif, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #283048; /* fallback for old browsers */
+  background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to left,
-    #859398,
-    #283048
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to left,
-    #859398,
-    #283048
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

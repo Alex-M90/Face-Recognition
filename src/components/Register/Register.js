@@ -43,8 +43,8 @@ class Register extends React.Component {
 
   render() {
     return (
-      <article className="mw6 shadow center bg-light-gray br3 pa3 pa4-ns mv3 ba b--black-10">
-        <main className="pa4 black-80">
+      <article className="mw6 shadow center bg-black br3 pa3 pa4-ns mv3 ba b--white-10">
+        <main className="pa4 white-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
               <legend className="f1 fw6 ph0 mh0">Register</legend>
@@ -53,7 +53,7 @@ class Register extends React.Component {
                   Name
                 </label>
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba bg-white w-100"
                   type="text"
                   name="name"
                   id="name"
@@ -65,7 +65,7 @@ class Register extends React.Component {
                   Email
                 </label>
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba bg-white w-100"
                   type="email"
                   name="email-address"
                   id="email-address"
@@ -77,7 +77,7 @@ class Register extends React.Component {
                   Password
                 </label>
                 <input
-                  className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba bg-white w-100"
                   type="password"
                   name="password"
                   id="password"
@@ -88,7 +88,7 @@ class Register extends React.Component {
             <div className="">
               <input
                 onClick={this.onSubmitSignIn}
-                className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+                className="b ph3 pv2 input-reset ba b--white bg-white grow pointer f6 dib"
                 type="submit"
                 value="Register"
               />
