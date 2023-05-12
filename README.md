@@ -1,4 +1,4 @@
-# [Face Detection App](face-detection-prce.onrender.com)
+# [Face Detection App](https://face-detection-prce.onrender.com/)
 
 This was built as part of the final project for The Complete Web Developer in 2023: Zero to Mastery course on Udemy.
 
