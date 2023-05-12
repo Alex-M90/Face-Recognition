@@ -6,7 +6,7 @@ The goal was to create and connect a frontend, backend and database, which allow
 
 * Register an account 
 * Login to their own page
-* Paste image addresses into a field which displays the image with a bounding-box appearing around the face, that is detected via an API to [Clarifai Face Detection Model] (https://clarifai.com/clarifai/main/models/face-detection)
+* Paste image addresses into a field which displays the image with a bounding-box appearing around the face, that is detected via an API to [Clarifai Face Detection Model](https://clarifai.com/clarifai/main/models/face-detection)
 * The users login credentials are stored in a database, where the password is also encrypted
 
 ## Built Using
@@ -14,4 +14,4 @@ The goal was to create and connect a frontend, backend and database, which allow
 * React
 * Node.js
 * Postgresql
-* Deployed on [Render] (https://render.com/)
+* Deployed on [Render](https://render.com/)
